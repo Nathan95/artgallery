@@ -1,0 +1,48 @@
+.formContainer {
+  border-bottom: 3px solid white;
+}
+.wrapper {
+  display: flex;
+  padding: 2rem 4rem 2rem 4rem;
+  flex-direction: row;
+}
+
+.formItem {
+  margin-right: 1rem;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.inputStyles {
+  border-radius: 5px;
+  padding: 1rem;
+  background: white;
+  border: 1px solid white;
+}
+
+input[type='file'] {
+  padding: 0.8rem;
+}
+
+@media only screen and (max-width: 1105px) {
+  input {
+    width: 100%;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .formItem {
+    margin-bottom: 1rem;
+  }
+  label {
+    margin-bottom: 1rem;
+  }
+  .inputStyles {
+    width: 100%;
+  }
+}

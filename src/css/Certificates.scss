@@ -1,0 +1,103 @@
+h2 {
+  color: white;
+}
+.certficateWrapper {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.item {
+  flex-basis: 25%;
+  background: maroon;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid peru;
+  box-shadow: 5px 5px 21px 5px rgba(0, 0, 0, 0.64);
+  position: relative;
+  overflow: hidden;
+}
+
+.item:hover {
+  border: 2px solid white;
+}
+
+.itemWrapper {
+  position: relative;
+}
+
+.cross {
+  border-radius: 100%;
+  padding: 0.5rem;
+  width: 2rem;
+  position: absolute;
+  background: white;
+  color: maroon;
+  z-index: 1;
+  font-weight: 900;
+  right: 35px;
+  top: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.pen {
+  padding: 0.2rem;
+  width: 2.1rem;
+  background: maroon;
+  color: white;
+  z-index: 1;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.pen:hover {
+  background: maroon;
+  color: white;
+  border: none;
+}
+
+.cross:hover {
+  background: maroon;
+  color: white;
+  border: none;
+}
+
+.imageWrapper {
+  height: 20rem;
+  width: 20em;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+li {
+  text-align: left;
+}
+
+span {
+  font-weight: 900;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1105px) {
+  .item {
+    flex-basis: 35%;
+  }
+  .certficateWrapper {
+    justify-content: center;
+  }
+}
