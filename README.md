@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## `git clone https://github.com/Nathan95/artgallery.git`
+
+## `cd artgallery`
+
+## `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
