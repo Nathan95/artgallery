@@ -126,12 +126,14 @@ const Form = () => {
               focus={() => setYearError(false)}
             />
           </div>
+          <div className="formItem">
             <Button
               type="submit"
               title="Create Certificate"
               classname="button"
               onKeyUp={handleSubmitForm}
             />
+          </div>
       </div>
     </form>
       </div>

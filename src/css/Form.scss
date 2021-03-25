@@ -1,5 +1,5 @@
 .formContainer {
-  border-bottom: 3px solid white;
+  border-bottom: 3px dashed white;
 }
 .wrapper {
   display: flex;
@@ -9,12 +9,14 @@
 
 .formItem {
   margin-right: 1rem;
+  text-align: left;
 }
 
 label {
   font-weight: 700;
   font-size: 18px;
   color: white;
+  line-height: 2;
   text-transform: capitalize;
 }
 
@@ -30,6 +32,10 @@ input[type='file'] {
 }
 
 @media only screen and (max-width: 1105px) {
+  input[type='file'] {
+    padding: 1rem;
+  }
+
   input {
     width: 100%;
   }
