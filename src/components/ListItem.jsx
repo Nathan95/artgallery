@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 const ListItem = ({
   handleDelete, 
@@ -58,5 +59,16 @@ const ListItem = ({
     </div>
   );
 }
+
+ListItem.propTypes = {
+  handleDelete: PropTypes.func.isRequired, 
+  handleTitleEdit: PropTypes.func.isRequired,
+  handleYearEdit: PropTypes.func.isRequired,
+  handleArtistEdit: PropTypes.func.isRequired,
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  artist: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired
+};
 
 export default ListItem;

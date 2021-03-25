@@ -16,8 +16,6 @@ const Certificates = () => {
    const HandleDelete = id => {
     if (window.confirm('Are you sure you want to delete this certificate?')) {
       dispatch(DeleteCertificate(id))
-    } else {
-      console.log('Closed');
     }
   }
 

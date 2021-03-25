@@ -53,4 +53,12 @@ InputField.propTypes = {
   focus: PropTypes.func
 };
 
+InputField.defaultProps = {
+  validation: "",
+  value: "",
+  name: "",
+  placeholder: "",
+  focus: () => {}
+}
+
 export default InputField;
